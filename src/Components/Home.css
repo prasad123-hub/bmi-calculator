@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.home-outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 80px;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 20px;
+  left: 100vh / 2;
+}
+
+span {
+  display: inline-block;
+  height: 25px;
+  width: 10px;
+  margin-right: 10px;
+  background-color: #1a0e92;
+}
+
+.home {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.height {
+  margin-bottom: 30px;
+}
+
+.height input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid #ea605a;
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.height button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #1a0e92;
+  color: white;
+  border-radius: 10px;
+}
+
+.weight input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid #ea605a;
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.weight button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #1a0e92;
+  color: white;
+  border-radius: 10px;
+}
+
+.calculate {
+  border: none;
+  padding: 10px 20px;
+  background-color: #1a0e92;
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.bmi-text {
+  margin-top: 20px;
+}
+
+.right img {
+  width: 100%;
+}
+
+.right {
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.right-img {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  overflow: hidden;
+}
